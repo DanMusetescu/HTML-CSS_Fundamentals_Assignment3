@@ -1,0 +1,70 @@
+header.main {
+    display: block;
+    width: 90%;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid blue;
+    height: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+aside {
+    display: inline-block;
+    width:15%;
+    box-sizing: border-box;
+    vertical-align: top;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+ }
+section{
+     display: inline-block;
+     width:75%;
+     padding: 10px;
+     box-sizing: border-box;
+     border-left: 1px solid blue;
+     text-align: justify;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .header_article{
+    font-weight: bold;
+    font-size: 20px;
+ }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width:80%;
+    margin: 0 auto;
+ }
+
+    th {
+    padding: 18px;
+    }
+    td {
+    padding: 12px;
+    }
+    th, td {
+    border: solid 1px gray
+    }
+    tr {
+    background-color: rgb(187, 196, 211);
+    }
+   #heading {
+        background-color: rgb(138, 131, 145);
+        color: white;
+     }
+    td.italic {
+    font-style: italic;
+    }
+
+footer{
+    clear:left;
+    width: 90%;
+    padding: 5px;
+    border-top: 1px solid blue;
+    margin-top: 10px;
+    height: 32px;
+    color: blue;
+  }
